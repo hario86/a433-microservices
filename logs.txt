@@ -1,25 +1,25 @@
 hario@HARIO404:~/proyek-pertama$ docker compose up
-[+] Building 0.0s (0/0)                                                                                     docker:default
+[+] Building 0.0s (0/0)                                                                    docker:default
 [+] Running 2/2
- ✔ Container proyek-pertama-item-db-1   Created                                                                       0.0s
- ✔ Container proyek-pertama-item-app-1  Recreated                                                                     0.1s
+ ✔ Container proyek-pertama-item-db-1   Created                                                      0.0s
+ ✔ Container proyek-pertama-item-app-1  Recreated                                                    0.1s
 Attaching to proyek-pertama-item-app-1, proyek-pertama-item-db-1
-proyek-pertama-item-db-1   | 2023-12-20T09:22:05.383+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=ac8d65b3461f
-proyek-pertama-item-db-1   | 2023-12-20T09:22:05.384+0000 I CONTROL  [initandlisten] db version v3.6.23
-proyek-pertama-item-db-1   | 2023-12-20T09:22:05.384+0000 I CONTROL  [initandlisten] git version: d352e6a4764659e0d0350ce77279de3c1f243e5c
-proyek-pertama-item-db-1   | 2023-12-20T09:22:05.384+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
-proyek-pertama-item-db-1   | 2023-12-20T09:22:05.384+0000 I CONTROL  [initandlisten] allocator: tcmalloc
-proyek-pertama-item-db-1   | 2023-12-20T09:22:05.384+0000 I CONTROL  [initandlisten] modules: none
-proyek-pertama-item-db-1   | 2023-12-20T09:22:05.384+0000 I CONTROL  [initandlisten] build environment:
-proyek-pertama-item-db-1   | 2023-12-20T09:22:05.384+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
-proyek-pertama-item-db-1   | 2023-12-20T09:22:05.384+0000 I CONTROL  [initandlisten]     distarch: x86_64
-proyek-pertama-item-db-1   | 2023-12-20T09:22:05.384+0000 I CONTROL  [initandlisten]     target_arch: x86_64
-proyek-pertama-item-db-1   | 2023-12-20T09:22:05.384+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true } }
-proyek-pertama-item-db-1   | 2023-12-20T09:22:05.384+0000 I -        [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
-proyek-pertama-item-db-1   | 2023-12-20T09:22:05.384+0000 I STORAGE  [initandlisten]
-proyek-pertama-item-db-1   | 2023-12-20T09:22:05.384+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
-proyek-pertama-item-db-1   | 2023-12-20T09:22:05.384+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
-proyek-pertama-item-db-1   | 2023-12-20T09:22:05.384+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=2919M,cache_overflow=(file_max=0M),session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),compatibility=(release="3.0",require_max="3.0"),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+proyek-pertama-item-db-1   | 2023-12-20T11:22:57.784+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=ac8d65b3461f
+proyek-pertama-item-db-1   | 2023-12-20T11:22:57.784+0000 I CONTROL  [initandlisten] db version v3.6.23
+proyek-pertama-item-db-1   | 2023-12-20T11:22:57.784+0000 I CONTROL  [initandlisten] git version: d352e6a4764659e0d0350ce77279de3c1f243e5c
+proyek-pertama-item-db-1   | 2023-12-20T11:22:57.784+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+proyek-pertama-item-db-1   | 2023-12-20T11:22:57.784+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+proyek-pertama-item-db-1   | 2023-12-20T11:22:57.784+0000 I CONTROL  [initandlisten] modules: none
+proyek-pertama-item-db-1   | 2023-12-20T11:22:57.784+0000 I CONTROL  [initandlisten] build environment:
+proyek-pertama-item-db-1   | 2023-12-20T11:22:57.784+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+proyek-pertama-item-db-1   | 2023-12-20T11:22:57.784+0000 I CONTROL  [initandlisten]     distarch: x86_64
+proyek-pertama-item-db-1   | 2023-12-20T11:22:57.784+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+proyek-pertama-item-db-1   | 2023-12-20T11:22:57.784+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true } }
+proyek-pertama-item-db-1   | 2023-12-20T11:22:57.785+0000 I -        [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+proyek-pertama-item-db-1   | 2023-12-20T11:22:57.785+0000 I STORAGE  [initandlisten]
+proyek-pertama-item-db-1   | 2023-12-20T11:22:57.785+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+proyek-pertama-item-db-1   | 2023-12-20T11:22:57.785+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+proyek-pertama-item-db-1   | 2023-12-20T11:22:57.786+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=2919M,cache_overflow=(file_max=0M),session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),compatibility=(release="3.0",require_max="3.0"),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
 proyek-pertama-item-app-1  |
 proyek-pertama-item-app-1  | > docker-software-delivery@1.0.0 start /app
 proyek-pertama-item-app-1  | > node ./bin/www
@@ -70,29 +70,29 @@ proyek-pertama-item-app-1  | npm ERR! Failed at the docker-software-delivery@1.0
 proyek-pertama-item-app-1  | npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
 proyek-pertama-item-app-1  |
 proyek-pertama-item-app-1  | npm ERR! A complete log of this run can be found in:
-proyek-pertama-item-app-1  | npm ERR!     /root/.npm/_logs/2023-12-20T09_22_06_067Z-debug.log
-proyek-pertama-item-db-1   | 2023-12-20T09:22:06.109+0000 I STORAGE  [initandlisten] WiredTiger message [1703064126:109381][1:0x7f80ac8dda40], txn-recover: Main recovery loop: starting at 2/6400
-proyek-pertama-item-db-1   | 2023-12-20T09:22:06.158+0000 I STORAGE  [initandlisten] WiredTiger message [1703064126:158098][1:0x7f80ac8dda40], txn-recover: Recovering log 2 through 3
-proyek-pertama-item-db-1   | 2023-12-20T09:22:06.186+0000 I STORAGE  [initandlisten] WiredTiger message [1703064126:186708][1:0x7f80ac8dda40], txn-recover: Recovering log 3 through 3
-proyek-pertama-item-db-1   | 2023-12-20T09:22:06.208+0000 I STORAGE  [initandlisten] WiredTiger message [1703064126:208851][1:0x7f80ac8dda40], txn-recover: Set global recovery timestamp: 0
-proyek-pertama-item-db-1   | 2023-12-20T09:22:06.259+0000 I CONTROL  [initandlisten]
-proyek-pertama-item-db-1   | 2023-12-20T09:22:06.259+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
-proyek-pertama-item-db-1   | 2023-12-20T09:22:06.259+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
-proyek-pertama-item-db-1   | 2023-12-20T09:22:06.259+0000 I CONTROL  [initandlisten]
-proyek-pertama-item-db-1   | 2023-12-20T09:22:06.259+0000 I CONTROL  [initandlisten]
-proyek-pertama-item-db-1   | 2023-12-20T09:22:06.259+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
-proyek-pertama-item-db-1   | 2023-12-20T09:22:06.259+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
-proyek-pertama-item-db-1   | 2023-12-20T09:22:06.259+0000 I CONTROL  [initandlisten]
-proyek-pertama-item-db-1   | 2023-12-20T09:22:06.265+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
-proyek-pertama-item-db-1   | 2023-12-20T09:22:06.265+0000 I NETWORK  [initandlisten] listening via socket bound to 0.0.0.0
-proyek-pertama-item-db-1   | 2023-12-20T09:22:06.266+0000 I NETWORK  [initandlisten] listening via socket bound to /tmp/mongodb-27017.sock
-proyek-pertama-item-db-1   | 2023-12-20T09:22:06.266+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+proyek-pertama-item-app-1  | npm ERR!     /root/.npm/_logs/2023-12-20T11_22_58_688Z-debug.log
+proyek-pertama-item-db-1   | 2023-12-20T11:22:59.120+0000 I STORAGE  [initandlisten] WiredTiger message [1703071379:120814][1:0x7f3a3aa38a40], txn-recover: Main recovery loop: starting at 4/4736
+proyek-pertama-item-db-1   | 2023-12-20T11:22:59.202+0000 I STORAGE  [initandlisten] WiredTiger message [1703071379:202611][1:0x7f3a3aa38a40], txn-recover: Recovering log 4 through 5
+proyek-pertama-item-db-1   | 2023-12-20T11:22:59.246+0000 I STORAGE  [initandlisten] WiredTiger message [1703071379:246196][1:0x7f3a3aa38a40], txn-recover: Recovering log 5 through 5
+proyek-pertama-item-db-1   | 2023-12-20T11:22:59.270+0000 I STORAGE  [initandlisten] WiredTiger message [1703071379:270844][1:0x7f3a3aa38a40], txn-recover: Set global recovery timestamp: 0
+proyek-pertama-item-db-1   | 2023-12-20T11:22:59.334+0000 I CONTROL  [initandlisten]
+proyek-pertama-item-db-1   | 2023-12-20T11:22:59.334+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+proyek-pertama-item-db-1   | 2023-12-20T11:22:59.334+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+proyek-pertama-item-db-1   | 2023-12-20T11:22:59.334+0000 I CONTROL  [initandlisten]
+proyek-pertama-item-db-1   | 2023-12-20T11:22:59.334+0000 I CONTROL  [initandlisten]
+proyek-pertama-item-db-1   | 2023-12-20T11:22:59.334+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+proyek-pertama-item-db-1   | 2023-12-20T11:22:59.334+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+proyek-pertama-item-db-1   | 2023-12-20T11:22:59.334+0000 I CONTROL  [initandlisten]
+proyek-pertama-item-db-1   | 2023-12-20T11:22:59.345+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+proyek-pertama-item-db-1   | 2023-12-20T11:22:59.346+0000 I NETWORK  [initandlisten] listening via socket bound to 0.0.0.0
+proyek-pertama-item-db-1   | 2023-12-20T11:22:59.346+0000 I NETWORK  [initandlisten] listening via socket bound to /tmp/mongodb-27017.sock
+proyek-pertama-item-db-1   | 2023-12-20T11:22:59.346+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
 proyek-pertama-item-app-1 exited with code 0
 proyek-pertama-item-app-1  |
 proyek-pertama-item-app-1  | > docker-software-delivery@1.0.0 start /app
 proyek-pertama-item-app-1  | > node ./bin/www
 proyek-pertama-item-app-1  |
 proyek-pertama-item-app-1  | NODE_ENV: production
-proyek-pertama-item-db-1   | 2023-12-20T09:22:07.129+0000 I NETWORK  [listener] connection accepted from 172.18.0.3:44440 #1 (1 connection now open)
-proyek-pertama-item-db-1   | 2023-12-20T09:22:07.137+0000 I NETWORK  [conn1] received client metadata from 172.18.0.3:44440 conn1: { driver: { name: "nodejs", version: "2.2.36" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "5.15.133.1-microsoft-standard-WSL2" }, platform: "Node.js v14.21.3, LE, mongodb-core: 2.1.20" }
+proyek-pertama-item-db-1   | 2023-12-20T11:23:00.106+0000 I NETWORK  [listener] connection accepted from 172.18.0.3:49164 #1 (1 connection now open)
+proyek-pertama-item-db-1   | 2023-12-20T11:23:00.112+0000 I NETWORK  [conn1] received client metadata from 172.18.0.3:49164 conn1: { driver: { name: "nodejs", version: "2.2.36" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "5.15.133.1-microsoft-standard-WSL2" }, platform: "Node.js v14.21.3, LE, mongodb-core: 2.1.20" }
 proyek-pertama-item-app-1  | Connected to database
