@@ -1,0 +1,19 @@
+# Versi API yang di definisikan
+apiVersion: v1
+# Jenis Objek Kubernetes (Service)
+kind: Service
+# Metadata untuk Deployment
+metadata:
+  # Nama Service
+  name: mongo-service
+  # Label Service
+  labels:
+    app: database
+# Spesifikasi untuk Service
+spec:
+# Port yang di buka pada Service
+  ports:
+  - port: 27017
+# Selektor untuk memilih pod yang akan di layani Service
+  selector:
+    app: database
